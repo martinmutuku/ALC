@@ -1,0 +1,4 @@
+Font 
+PoiZone
+Background Color Blue
+Font Size 20
