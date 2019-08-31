@@ -6,6 +6,35 @@ ALC
 
 W. S. R.
 Workjng area, Staging Repo
+Create a blank file on working directory
+Create the remote repo on Git Hub
+Copy the path of the Remote Repo
+You have to master CLI
+
+
+On the commandline, initialize your git by 
+$git init
+followed by
+$ git remote add origin https://github.com/martinmutuku/ALC.git
+check the version by
+$ git remote -v
+origin  https://github.com/martinmutuku/ALC.git (fetch)
+origin  https://github.com/martinmutuku/ALC.git (push)
+create your project file
+$ touch file okoth.txt
+check the status - red files show uncommitted files
+$ git status
+On branch master
+
+No commits yet
+
+$ git add 'okoth.txt'
+$ git commit -m "Added how to add changes to a file in Remote repo"
+$ git push origin master
+
+
+
+
 GIT TUTORIAL
 what is a version?
 What is git-add?
@@ -33,7 +62,7 @@ Both git add . and git add -A will stage all new, modified and deleted files in 
 $ git commit -m "Add existing file" # Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file,
  use 'git reset --soft HEAD~1' and commit and add the file again. Push the changes in your local repository to GitHub.
  
- git push. The git push command is used to upload local repository content to a remote repository. Pushing is how you
+$ git push. The git push command is used to upload local repository content to a remote repository. Pushing is how you
  transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , but whereas fetching
  imports commits to local branches, pushing exports commits to remote branches.
  
