@@ -1,5 +1,5 @@
 #include<stdio.h>
-int mai(){
+int main(){
 	//git branch
 	printf("Hello World\n");
 	
