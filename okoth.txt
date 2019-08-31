@@ -1,0 +1,46 @@
+ALC
+
+1. Git comprehension
+2. No blockers in phase2
+3. 
+
+W. S. R.
+Workjng area, Staging Repo
+GIT TUTORIAL
+what is a version?
+What is git-add?
+git add . adds all modified and new (untracked) files in the current directory and all subdirectories to the staging 
+area (a.k.a. the index), thus preparing them to be included in the next git commit .
+ Any files matching the patterns in the .gitignore file will be ignored by git add 
+
+ 
+What is git remote add?
+To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.
+ The git remote add command takes two arguments:
+ A remote name, for example, “origin” A remote URL, which you can find on the Source sub-tab of your Git repo
+ 
+ What is git add -- all?
+git add. The git add command adds a change in the working directory to the staging area. It tells Git that you 
+want to include updates to a particular file in the next commit
+ 
+ git diff – — shows the difference of between the working directory and the given branch. git checkout – — checks out
+ files from the given branch into the working directory. git merge — merges the given branch into the current branchmmm
+ 
+ What is the difference between git add and git add *?
+Both git add . and git add -A will stage all new, modified and deleted files in the newer versions of git . The difference
+ is that git add -A stages files in "higher, current and subdirectories" that belong to your working git repository
+ 
+$ git commit -m "Add existing file" # Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file,
+ use 'git reset --soft HEAD~1' and commit and add the file again. Push the changes in your local repository to GitHub.
+ 
+ git push. The git push command is used to upload local repository content to a remote repository. Pushing is how you
+ transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , but whereas fetching
+ imports commits to local branches, pushing exports commits to remote branches.
+ 
+ git init
+ commit
+ working directory
+ Staging and Repository
+ 
+ Code review
+ Branching 
