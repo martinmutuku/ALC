@@ -37,6 +37,8 @@ $ git commit -m "Add existing file" # Commits the tracked changes and prepares t
  transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , but whereas fetching
  imports commits to local branches, pushing exports commits to remote branches.
  
+ The process is repeated in this manner
+ Git add, git commit then git push for every change in the file
  git init
  commit
  working directory
